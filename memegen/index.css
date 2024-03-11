@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(9, 121, 46) 83%);
+}
+.app {
+  width: 700px;
+  background-color: azure;
+  margin: 30px 0 30px 380px;
+  height: 600px;
+  color: aliceblue;
+}
+.head {
+  padding: 1rem;
+  background-color: rgba(95, 6, 167, 0.872);
+  display: flex;
+  justify-content: space-between;
+}
+.head > * {
+  padding: 4px;
+}
+
+.inputt {
+  padding: 1rem;
+}
+input {
+  margin: 10px 0 10px 100px;
+  padding: 5px;
+}
+button {
+  width: 200px;
+  height: 30px;
+  margin-left: 250px;
+}
